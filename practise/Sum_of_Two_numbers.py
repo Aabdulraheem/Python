@@ -4,7 +4,8 @@
 # Topic covers : Input nad output , variable,Arithmetic operators
 
 
-num1= 5
-num2=10
-sum = num1+num2
-print("sum:",sum)
+num1 = int(input())
+num2 = int(input())
+
+#print("Sum:",num1+num2,sep="")
+print(f"Sum:{num1+num2}")
